@@ -5,7 +5,6 @@ import "./App.css";
 function App(){
   const [item,setitem]=React.useState([]);
   const handleAddTask =({desc,date}) => {
-    //const temp=[...item];
     if(desc!=='' && date!==''&& desc!==undefined && date!==undefined){
     const temp={
       desc:desc,
